@@ -5,6 +5,13 @@ build/
 dist/
 wheels/
 *.egg-info
+.ipynb_checkpoints/
 
 # Virtual environments
 .venv
+
+# outputs
+outputs/figures/*
+
+# data
+data/
