@@ -14,4 +14,4 @@ wheels/
 outputs/figures/*
 
 # data
-data/
+/data/

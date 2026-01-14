@@ -11,7 +11,7 @@ from src.config import OUTPUT_PATH
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-def main():
+def perform_eda():
     # Load data
     df_train = load_cmapss_data("FD001", "train")
 
@@ -52,4 +52,4 @@ def main():
         )
 
 if __name__ == "__main__":
-    main()
+    perform_eda()
