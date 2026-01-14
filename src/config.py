@@ -1,7 +1,12 @@
 from pathlib import Path
 
 DATA_PATH = Path(__file__).parent.parent / 'data' / 'raw'
+PROCESSED_DATA_PATH = Path(__file__).parent.parent / 'data' / 'processed'
 OUTPUT_PATH = Path(__file__).parent.parent / 'outputs'
+
+# Preprocessing configuration
+RUL_MAX = 130
+DATASET = 'FD001'
 
 index_names = ['engine', 'cycle']
 setting_names = ['throttle resolver angle', 'altitude', 'mach number']
